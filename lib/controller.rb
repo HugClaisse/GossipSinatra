@@ -1,7 +1,7 @@
 require 'gossip'
 
 class ApplicationController < Sinatra::Base
-  get '/gossips/' do
+  get '/' do
     erb :index
     
   end
